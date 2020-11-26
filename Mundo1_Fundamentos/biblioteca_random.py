@@ -1,7 +1,7 @@
 from random import randint
 import emoji
 from math import radians, sin, cos, tan
-num = random.randint(1, 30)
+num = randint(1, 30)
 print(emoji.emojize('O número sorteado é {}. :collision:'.format(num), use_aliases=True))
 
 angulo = float(input('Digite o valor de um ângulo: '))
